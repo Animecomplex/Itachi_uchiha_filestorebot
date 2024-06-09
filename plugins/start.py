@@ -91,10 +91,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
-            ],[
-                    InlineKeyboardButton("Anime Sparta", url = "https://t.me/Anime_Sparta")
-            ]
-                    
+            ],
         )
         await message.reply_text(
             text = START_MSG.format(
